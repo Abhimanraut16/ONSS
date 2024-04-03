@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgba(255, 248, 248, 0.98);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper {
+  width: 420px;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  color: tomato;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+.wrapper form h1 {
+  font-size: 36px;
+  text-align: center;
+}
+.wrapper form .input-box {
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+.wrapper form .input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(161, 155, 155, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #333;
+  padding: 20px 45px 20px 20px;
+}
+.wrapper form .input-box input::-moz-placeholder {
+  color: #b6b5b5;
+}
+.wrapper form .input-box input::placeholder {
+  color: #b6b5b5;
+}
+.wrapper form .remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+}
+.wrapper form .remember-forgot label input {
+  accent-color: #b6b5b5;
+  margin-right: 3px;
+}
+.wrapper form .remember-forgot a {
+  color: #4a4747;
+  text-decoration: none;
+}
+.wrapper form .remember-forgot a:hover {
+  text-decoration: underline;
+}
+.wrapper form .btn {
+  width: 100%;
+  height: 45px;
+  background: tomato;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(241, 241, 241);
+}
+.wrapper form .register-link {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+.wrapper form .register-link a {
+  text-decoration: none;
+  color: tomato;
+  padding: 5px 0;
+  line-height: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: large;
+  border-bottom: 2px gray solid;
+}/*# sourceMappingURL=signin.css.map */

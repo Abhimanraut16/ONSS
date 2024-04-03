@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(244, 223, 223, 0.98);
+}
+
+.container {
+  width: 100%;
+  max-width: 650px;
+  padding: 28px;
+  margin: 0 28px;
+}
+.container .container-cont {
+  border: 1px solid rgb(221, 190, 190);
+  width: 520px;
+  border-radius: 10px;
+  padding: 30px 20px;
+  box-shadow: 3px 3px 1px 1px rgb(233, 216, 216);
+  background-color: rgba(255, 248, 248, 0.98);
+}
+.container .container-cont .form-title {
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 6px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  border-bottom: solid 1px rgb(174, 172, 172);
+}
+.container .container-cont .form-title a {
+  text-decoration: none;
+  color: tomato;
+}
+.container .container-cont .main-user-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.container .container-cont .main-user-info .user-input-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  padding-bottom: 15px;
+}
+.container .container-cont .main-user-info .user-input-box:nth-child(2n) {
+  justify-content: end;
+}
+.container .container-cont .main-user-info .user-input-box input {
+  height: 40px;
+  width: 95%;
+  border-radius: 7px;
+  outline: none;
+  border: 1px solid grey;
+  padding: 0 10px;
+}
+.container .container-cont .main-user-info .user-input-box label {
+  width: 95%;
+  color: tomato;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 5px 0;
+}
+.container .container-cont .main-user-info .register a {
+  text-decoration: none;
+  color: tomato;
+  border-bottom: 1px rgb(84, 83, 83) solid;
+}
+.container .container-cont .main-user-info .form-submit-btn {
+  margin-top: 40px;
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  color: wheat;
+  background: tomato;
+}
+.container .container-cont .main-user-info .form-submit-btn:hover {
+  background: rgba(226, 160, 160, 0.532);
+  color: rgb(240, 4, 4);
+}/*# sourceMappingURL=signup.css.map */

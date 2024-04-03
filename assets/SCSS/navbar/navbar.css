@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./7.jpg");
+  background-size: 1100px;
+  background-position: -8px 0px;
+}
+
+.navbar {
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+.navbar .logo {
+  color: #ff7200;
+  font-size: 25px;
+  font-family: Arial;
+  padding-left: 50px;
+  float: left;
+  padding-top: 20px;
+  font-weight: 700;
+}
+.navbar .menu {
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+.navbar .menu ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar .menu ul li {
+  list-style: none;
+  margin-left: 30px;
+  margin-top: 27px;
+  font-size: 16px;
+}
+.navbar .menu ul li a {
+  text-decoration: none;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.2s ease-in-out;
+  color: #ff7200;
+}
+.navbar .menu ul li a:hover {
+  color: #000;
+  border-bottom: 2px solid #ff7200;
+}
+
+.main .content {
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: #000;
+  position: relative;
+  font-size: 18px;
+  padding-left: 50px;
+}
+.main .content h1 {
+  font-family: "Times New Roman";
+  font-size: 40px;
+  padding-left: -3px;
+  margin-top: 5%;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.main .content p {
+  padding-left: -3px;
+  padding-bottom: 25px;
+  font-family: Arial;
+  margin-top: 2%;
+  letter-spacing: 1.5px;
+  line-height: 20px;
+}
+.main .content .cn {
+  width: 160px;
+  height: 45px;
+  background: #ff7200;
+  border: none;
+  margin-bottom: 10px;
+  margin-left: -3px;
+  font-size: 18px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 3s ease;
+  margin-top: -3%;
+}
+.main .content .cn a {
+  text-decoration: none;
+  color: #000;
+  transition: 1s ease;
+}
+.main .content .cn:hover {
+  background-color: blue;
+}
+.main .content span {
+  color: #ff7200;
+  font-size: 40px;
+}
+
+#slider .container {
+  position: relative;
+  padding: 10px 0;
+  top: 160px;
+  width: 800px;
+}
+#slider .container .text {
+  color: #000;
+  background-color: rgba(201, 151, 151, 0.8078431373);
+  font-weight: 500;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+#slider .container .btn {
+  background-color: #ff7200;
+  color: #000;
+  font-weight: bold;
+}/*# sourceMappingURL=navbar.css.map */
